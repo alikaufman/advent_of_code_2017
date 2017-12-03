@@ -1,7 +1,5 @@
 require 'rspec'
 
-# DATA = gets.chomp
-
 module Day2
 	def solve_first( input_file )
 		sum = 0
@@ -28,5 +26,3 @@ RSpec.describe( Day2 ) do
 	end
 
 end
-
-# puts Day2.solve_first( DATA )
