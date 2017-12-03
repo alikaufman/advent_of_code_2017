@@ -7,9 +7,7 @@ module Day2
 		File.open( input_file, "r" ) do |f|
   			f.each_line do |line|
     			num_arr = line.split.map( &:to_i )
-    			min = num_arr.min
-    			max = num_arr.max
-    			sum += max - min
+    			sum += num_arr.max - num_arr.min
     		end
   		end
 
