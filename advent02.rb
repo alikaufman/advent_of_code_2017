@@ -55,5 +55,3 @@ RSpec.describe( Day2 ) do
 	end
 
 end
-
-puts Day2.solve_second( 'day02_part02_input.txt')
